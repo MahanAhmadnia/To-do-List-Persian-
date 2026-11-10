@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فهرست کار قدم به قدم</title>
+    <!-- link output -->
+    <link rel="stylesheet" href="./src/output.css">
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/checklist_rtl_32dp_000000_FILL0_wght400_GRAD0_opsz40.svg">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-['Vazirmatn',sans-serif]">
+
+    <div class="w-10/12 mx-auto md:w-8/12 lg:w-6/12 xl:w-4/12 2xl:w-3/12">
+
+        <!-- Header -->
+         <div class="my-6">
+
+            <h1 class="text-center text-xl font-semibold">
+                روزت رو بساز ،
+
+                <span class="text-violet-600">قدم به قدم</span>
+            </h1>
+
+         </div>
+        <!-- End Header -->
+
+
+
+        <!-- Main -->
+         <div class="bg-violet-50 p-6 rounded-md min-h-36">
+
+
+            <!-- Add Task -->
+             <div class="flex items-center justify-between">
+
+                <input id="input" type="text" class="w-full h-10 bg-white border border-gray-300 rounded-md px-3 me-3 text-sm focus:outline-none" placeholder="مثال : خواندن کتاب...">
+
+                <button id="addButton" class="w-24 h-10  bg-violet-600 text-white rounded-md hover:bg-violet-700 active:scale-95 active:shadow-lg">
+
+                   <img class="mx-auto" src="./images/add_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                    
+                </button>
+
+             </div>
+            <!-- End Add Task -->
+
+
+
+            <!-- Result Box -->
+             <div id="result" class="flex flex-col items-center justify-evenly mt-4 max-h-96 overflow-y-auto">
+
+             </div>
+            <!-- End Result Box -->
+
+
+
+            <!-- Last sentence -->
+             <p class="text-center text-sm text-gray-600 my-2">ساخته شده برای تمرکز بیشتر ✨</p>
+
+         </div>
+        <!-- End Main -->
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
