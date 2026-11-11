@@ -1,7 +1,6 @@
 // DOM
 const input = document.getElementById('input');
 const addButton = document.getElementById('addButton');
-const checkboxBtn = document.getElementById('checkboxBtn');
 const result = document.getElementById('result');
 
 // Program
@@ -28,7 +27,7 @@ addButton.addEventListener("click",() => {
 
         <button onclick="this.parentElement.remove()" class="p-1 rounded-md hover:bg-violet-50 active:scale-95">
     
-            <img src="images/delete_22dp_666666_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            <img src="images/delete_22dp_666666_FILL0_wght400_GRAD0_opsz24.svg">
 
         </button>
     </div>`
@@ -36,12 +35,14 @@ addButton.addEventListener("click",() => {
     input.value = "";
 })
 
+// checkboxBtn
 result.addEventListener("change", (e) => {
     if (e.target.id === "checkboxBtn") {
         e.target.nextElementSibling.classList.toggle("line-through");
     }
 });
 
+// Press Enter
 input.addEventListener("keydown", (e) => {
     if (e.key === "Enter") {
         addButton.click();
