@@ -7,10 +7,10 @@
 A simple and responsive Persian (RTL) To-Do List application designed to help users manage their daily tasks and improve productivity, one step at a time.
 
 ## Live Demo
-[View Live Demo](YOUR_DEMO_LINK)
+[View Live Demo](https://mahanahmadnia.github.io/To-do-List-Persian-/)
 
 ## Screenshot
-[View Project Screenshot](YOUR_SCREENSHOT_LINK)
+[View Project Screenshot](images/2026-11-11_21-30.png)
 
 ## Technologies
 - HTML5
