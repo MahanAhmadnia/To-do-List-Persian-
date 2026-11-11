@@ -1,7 +1,5 @@
-# قدم به قدم | Step by Step
-
 ## Name
-**Step by Step – To-Do List**
+**قدم به قدم | Step by Step**
 
 ## Description
 A simple and responsive Persian (RTL) To-Do List application designed to help users manage their daily tasks and improve productivity, one step at a time.
